@@ -1,0 +1,4 @@
+2025-05-22T10:23:47.244+05:30  WARN 20648 --- [OrderService] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h19m56s74ms189µs800ns).
+2025-05-22T14:30:03.074+05:30  WARN 20648 --- [OrderService] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m12s120ms817µs499ns).
+2025-05-22T14:57:32.321+05:30  WARN 20648 --- [OrderService] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m29s245ms848µs300ns).
+2025-05-22T17:22:26.662+05:30  WARN 20648 --- [OrderService] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m22s750ms915µs600ns).
