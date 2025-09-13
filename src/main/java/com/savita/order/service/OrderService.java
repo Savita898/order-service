@@ -43,7 +43,7 @@ public class OrderService {
 	{
 		logger.trace("Input Request came "+orderRequest);//internal dev level logs if every step we want to log
 		boolean isUserValid = validateUser(orderRequest.getUserId());
-		
+		System.out.println("change");
 		if (!isUserValid) {
 			logger.error("Invalid user found "+orderRequest.getUserId());//something broke.
             throw new RuntimeException("User not valid!");

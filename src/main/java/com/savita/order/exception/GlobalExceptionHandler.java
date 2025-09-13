@@ -23,5 +23,4 @@ public class GlobalExceptionHandler {
 		ErrorDetails errorDetails= new ErrorDetails(exception.getMessage(),new Date());
 		return new ResponseEntity<>(errorDetails,HttpStatus.BAD_REQUEST);
 	}	
-
 }
